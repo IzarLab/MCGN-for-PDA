@@ -1,0 +1,22 @@
+# Ignore everything
+*
+AWS/*
+*.pem
+
+# But not these files...
+!.gitignore
+!*.ipynb
+*-checkpoint.ipynb
+!*.sh
+!*.yml
+!*.R
+!*.r
+!*.py
+!todo.txt
+
+# ...even if they are in subdirectories
+!*/
+
+# But ignore the numbat output
+*run_phasing.sh
+*run_pileup.sh

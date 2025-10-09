@@ -1,0 +1,12 @@
+cin70_genes <- c("ACTL6A", "ASF1B", "ATAD2", "AURKA", "AURKB", "CCNB1", 
+                     "CCNB2", "CCT5", "CDC20", "CDC45", "CDC6", "CDCA3", 
+                     "CDCA8", "CDK1", "CEP55", "CKAP5", "CKS2", "CMAS", "CTPS1",
+                     "DHCR7", "DKC1", "ECT2", "ELAVL1", "ESPL1", "EZH2", "FEN1",
+                      "FOXM1", "H2AFZ ", "H2AZ1", "H2AX ", "H2AFX", "HDGF", 
+                      "KIF20A", "KIF4A", "LSM4", "MAD2L1", "MCM10", "MCM2", 
+                      "MCM7", "MELK", "MTCH2", "NCAPD2", "NCAPG2", "NCAPH",
+                      "NDUFAB1", "NEK2", "NEMP1", "NUP205", "NXT1", "OIP5", 
+                      "PBK", "PCNA", "PDCD2L ", "GPI", "PRC1", "PTTG1", 
+                      "RAB5IF", "RAD21", "RAD51AP1", "RFC4", "RNASEH2A", 
+                      "RRM1", "RRM2", "SRSF2", "TGIF2", "TOP2A", "TPX2", 
+                      "TRIP13", "TTK", "UBE2C", "UNG", "ZWILCH", "ZWINT")
