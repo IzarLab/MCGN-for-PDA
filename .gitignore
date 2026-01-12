@@ -13,6 +13,7 @@ AWS/*
 !*.r
 !*.py
 !todo.txt
+!*.md
 
 # ...even if they are in subdirectories
 !*/

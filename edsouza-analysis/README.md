@@ -1,0 +1,7 @@
+# Guide to using this code
+
+All conda environments are provided as .yml files; install using `mamba` for convenience. If mamba is unable to resolve any of the environments, the full commands to generate the environments are available in `setup.sh`. This file also contains additional lines to install packages using tools outside of conda/mamba. The most significant of these is for the `numbat` environment.
+
+Code is executed in either Jupyter notebooks or shell scripts; to replicate our analyses, run the main scripts 01 through 09 in order, using the conda environment/kernel specified in the code for each (Jupyter allows you to select both R and Python kernels within the relevant conda environment). The scripts numbered 02b, 03b, 05b, and 06b are not meant to be run on their own and are invoked by their respective main scripts. The bulk of the non-malignant and malignant compartment analyses occur in 08 and 09, respectively. Within these files, major figures are denoted with the searchable symbol `#!` either in the comments of the relevant code block or in the markdown of the corresponding section. We have also included commented-out code in 09 to show our work for the annotation process. 
+
+Most of these analyses were performed on an aws ec2 r5.4xlarge instance, though the malignant prediction steps and preprocessing occasionally used up to r5.12xlarge depending on memory requirements. Especially for numbat/inferCNV, it is helpful to process samples on multiple machines at a time in parallel since those steps can take much longer.
